@@ -3,9 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { TreeViewComponent } from '@syncfusion/ej2-ng-navigations';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TreeViewComponent
   ],
   imports: [
     BrowserModule
